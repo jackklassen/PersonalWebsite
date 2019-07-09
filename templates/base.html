@@ -1,0 +1,26 @@
+{% extends "bootstrap/base.html" %}
+	{% block style %}
+	<style>
+	html.contrast body {
+    	color: #050505;
+	}
+	.center {
+  	margin: auto;
+  	width: 50%;
+  	border: 3px solid green;
+  	padding: 10px;
+	}
+	body {
+    	font-family: Open Sans,Arial;
+    	color: #454545;
+    	font-size: 16px;
+    	line-height: 1.4;
+    	text-align: justify;
+	}
+	</style>
+	{% endblock %}
+   
+    <body>
+        {% block content %}{% endblock %}
+    </body>
+
