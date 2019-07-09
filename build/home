@@ -1,6 +1,7 @@
 
     
-	
+	<!DOCTYPE html>
+	<html>
 	<style>
 	
 	.center {
@@ -39,3 +40,5 @@
           </div>
     
     </body>
+
+</html>
